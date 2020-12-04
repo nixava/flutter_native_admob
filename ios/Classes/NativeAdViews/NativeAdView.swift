@@ -236,7 +236,7 @@ private extension NativeAdView {
                 adBodyLbl,
                 actionLayout
             ])
-        layout.isUserInteractionEnabled = false
+        layout.isUserInteractionEnabled = true
         contentView.addSubview(layout)
         layout.autoAlignAxis(toSuperviewAxis: .horizontal)
         layout.autoPinEdge(toSuperviewEdge: .leading)
@@ -273,7 +273,7 @@ private extension NativeAdView {
             ]),
             callToActionBtn
         ])
-        layout.isUserInteractionEnabled = false
+        layout.isUserInteractionEnabled = true
         contentView.addSubview(layout)
         layout.autoAlignAxis(toSuperviewAxis: .horizontal)
         layout.autoPinEdge(toSuperviewEdge: .leading)
